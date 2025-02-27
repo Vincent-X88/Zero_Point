@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">tradex</string>
+    <string name="whatsapp_service_description">to enable whatsapp</string>
+    <string name="whatsapp_service_label">whatsapp</string>
+</resources>

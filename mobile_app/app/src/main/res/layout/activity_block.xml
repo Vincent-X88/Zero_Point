@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Usage Restricted"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/black" />
+
+    <!-- Message explaining why the app is blocked -->
+    <TextView
+        android:id="@+id/blockMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have exceeded the time limit for this app."
+        android:textSize="18sp"
+        android:layout_below="@id/titleText"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Button to close the block screen -->
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:textSize="16sp"
+        android:layout_below="@id/blockMessage"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
