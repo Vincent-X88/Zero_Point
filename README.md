@@ -4,12 +4,6 @@
 
 Zero Point is an advanced monitoring system designed to stealthily track and manage Android devices. The mobile app runs discreetly in the background, collecting critical data such as contacts, SMS, call logs, and WhatsApp messages. Additionally, it allows remote actions like locking the device and blocking specific apps, as well as tracking the device’s location. The accompanying website displays all the collected information and provides remote control functionalities, ensuring a robust and comprehensive monitoring solution.
 
----
-
-## 🎥 Demonstration Videos
-
-- **Full Demo:** [Watch the Full Demonstration](#)  
-*(Link to demonstration video)*
 
 ---
 
